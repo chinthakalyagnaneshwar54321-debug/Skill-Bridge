@@ -1,0 +1,8 @@
+- [ ] Audit existing auth, routes, schema, and data access
+- [ ] Complete backend schema and migrations for profiles, skills, requests, messaging, notifications, reviews, and roles
+- [ ] Connect authentication and profile lifecycle securely
+- [ ] Connect existing pages and buttons to real data, adding only missing messaging surfaces
+- [ ] Validate database policies, runtime flows, and production build
+- [ ] Add clickable homepage category cards and category-specific skill pages
+- [ ] Verify signup, skill creation, swap request, and dashboard persistence
+- [x] Replace the generated homepage image with a real photograph while preserving the design
