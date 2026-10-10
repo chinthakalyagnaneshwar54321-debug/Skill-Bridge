@@ -1,3 +1,7 @@
+- [ ] Verify Supabase environment configuration and auth/session persistence
+- [ ] Audit profile, skills, matching, requests, messaging, and RLS against live data
+- [ ] Fix verified frontend or access-control defects without removing existing features
+- [ ] Re-test core signed-in flows and document anything not verified
 - [ ] Add clickable homepage category cards and category-specific skill pages (blocked: categories table is empty — needs real category data)
 - [ ] Validate production build (runtime flows verified in preview)
 - [x] Audit existing auth, routes, schema, and data access
