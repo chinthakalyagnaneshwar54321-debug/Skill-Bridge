@@ -1,8 +1,7 @@
-- [ ] Audit existing auth, routes, schema, and data access
-- [ ] Complete backend schema and migrations for profiles, skills, requests, messaging, notifications, reviews, and roles
-- [ ] Connect authentication and profile lifecycle securely
-- [ ] Connect existing pages and buttons to real data, adding only missing messaging surfaces
-- [ ] Validate database policies, runtime flows, and production build
-- [ ] Add clickable homepage category cards and category-specific skill pages
-- [ ] Verify signup, skill creation, swap request, and dashboard persistence
-- [x] Replace the generated homepage image with a real photograph while preserving the design
+- [ ] Add clickable homepage category cards and category-specific skill pages (blocked: categories table is empty — needs real category data)
+- [ ] Validate production build (runtime flows verified in preview)
+- [x] Audit existing auth, routes, schema, and data access
+- [x] Complete backend schema and migrations for profiles, skills, requests, messaging, notifications, reviews, and roles
+- [x] Connect authentication and profile lifecycle securely (fixed: handle_new_user trigger was not attached to auth.users; attached + backfilled missing profiles/roles)
+- [x] Connect existing pages and buttons to real data, adding only missing messaging surfaces (fixed: repointed user-id foreign keys to public.profiles so profile joins work)
+- [x] Verify signup, skill creation, swap request, and dashboard persistence (end-to-end with two accounts: signup → profile+role, skill creation, browse, request sent, notification, accept)
